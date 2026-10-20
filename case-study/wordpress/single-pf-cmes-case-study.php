@@ -71,7 +71,7 @@ get_header();
         <div><dt>Client</dt><dd>CMES Inc. &middot; Norcross, GA</dd></div>
         <div><dt>Industry</dt><dd>Heavy civil &amp; highway construction</dd></div>
         <div><dt>Challenge</dt><dd>Data split across ERP, HeavyJob, telematics, HR &amp; Excel</dd></div>
-        <div><dt>Solution</dt><dd>Custom operations portal, 3 AI assistants &amp; WordPress redesign</dd></div>
+        <div><dt>Solution</dt><dd>Custom operations portal &amp; AI assistants</dd></div>
         <div><dt>Integrations</dt><dd>Viewpoint Vista, HCSS HeavyJob, BambooHR &amp; telematics</dd></div>
         <div><dt>Timeline</dt><dd>9 months + ongoing expansion</dd></div>
       </dl>
@@ -106,13 +106,13 @@ get_header();
         </li>
         <li class="metric">
           <strong>+45%</strong>
-          <span>website traffic</span>
-          <small>After the website redesign<sup><a href="#src-2">2</a></sup></small>
+          <span>Efficiency improve</span>
+          <small>Reported by the CMES team<sup><a href="#src-1">1</a></sup></small>
         </li>
         <li class="metric">
           <strong>+60%</strong>
-          <span>search impressions</span>
-          <small>After the website redesign<sup><a href="#src-2">2</a></sup></small>
+          <span>accurate impressions</span>
+          <small>Reported by the CMES team<sup><a href="#src-1">1</a></sup></small>
         </li>
       </ul>
     </div>
@@ -266,7 +266,7 @@ get_header();
               <li>Finance</li><li>Payroll</li><li>Fleet</li><li>Projects</li><li>Bids</li><li>HR</li>
             </ul>
             <ul class="arch__ai">
-              <li>AI &middot; Document Chat</li><li>AI &middot; Bid AI Chat</li><li>AI &middot; HR AI Chat</li>
+              <li>AI &middot; Bid Chat</li><li>AI &middot; HR Chat</li>
             </ul>
           </div>
           <p class="arch__guard">Role-based permissions &middot; Read-only AI &middot; Activity logging</p>
@@ -491,113 +491,18 @@ get_header();
     </div>
   </section>
 
-  <!-- 09 THREE AUDIENCE JOURNEYS (Crisp High-Contrast White Section) -->
-  <section class="web-journeys" aria-labelledby="journeys-title">
-    <div class="wrap">
-      <div class="section-head section-head--split">
-        <div>
-          <p class="eyebrow">07 &mdash; Architecture &amp; navigation</p>
-          <h2 id="journeys-title" class="h2">Three audience journeys.</h2>
-        </div>
-        <p class="section-head__aside">Clear pathways replacing a generic brochure layout &mdash; structured directly around <b>Who We Are</b>, <b>What We Do</b>, and <b>Join Us</b>.</p>
-      </div>
-
-      <div class="journeys-grid">
-        <article class="journey-card">
-          <div class="journey-card__header">
-            <span class="journey-card__step">01</span>
-            <span class="journey-card__tag">Let&rsquo;s Build</span>
-          </div>
-          <h3 class="journey-card__title">Clients</h3>
-          <p class="journey-card__text">Services, heavy highway project showcases, safety credentials and association awards &mdash; with a clear route to project inquiries.</p>
-          <div class="journey-card__route">Primary Route: <b>What We Do &rarr; Projects</b></div>
-        </article>
-
-        <article class="journey-card">
-          <div class="journey-card__header">
-            <span class="journey-card__step">02</span>
-            <span class="journey-card__tag">Careers</span>
-          </div>
-          <h3 class="journey-card__title">Job Seekers</h3>
-          <p class="journey-card__text">Dedicated career tracks for professional staff, field engineers and skilled equipment operators, highlighting company culture and benefits.</p>
-          <div class="journey-card__route">Primary Route: <b>Join Us &rarr; Open Roles</b></div>
-        </article>
-
-        <article class="journey-card">
-          <div class="journey-card__header">
-            <span class="journey-card__step">03</span>
-            <span class="journey-card__tag">Vendors</span>
-          </div>
-          <h3 class="journey-card__title">Subcontractors</h3>
-          <p class="journey-card__text">A direct, structured qualification and onboarding channel for trade partners, material suppliers, and DBE/MBE collaborators.</p>
-          <div class="journey-card__route">Primary Route: <b>Who We Are &rarr; Partner With Us</b></div>
-        </article>
-      </div>
-
-      <div class="journeys-metrics-bar">
-        <dl class="mini-metrics">
-          <div><dt>+45%</dt><dd>Website traffic</dd></div>
-          <div><dt>+60%</dt><dd>Search impressions</dd></div>
-          <div><dt>+35%</dt><dd>User engagement</dd></div>
-        </dl>
-        <p class="note">Website performance outcomes as published on the original CMES Inc. case study<sup><a href="#src-2">2</a></sup>.</p>
-      </div>
-
-      <!-- Equal-Height Gallery in 1320px Container -->
-      <div class="gallery-dual">
-        <figure class="gallery-dual__item">
-          <img src="<?php echo esc_url($cmes_uri); ?>/assets/img/cmes-web-showcase-projects.png" alt="Project Showcase and Case Studies Desktop View" width="1200" height="750" loading="lazy">
-        </figure>
-        <figure class="gallery-dual__item">
-          <img src="<?php echo esc_url($cmes_uri); ?>/assets/img/cmes-web-showcase-careers.png" alt="Safety, Equipment and Careers Tablet and Mobile View" width="1200" height="750" loading="lazy">
-        </figure>
-      </div>
-    </div>
-  </section>
-
   <!-- 10 TECHNOLOGY & ECOSYSTEM (Subtle Neutral Section with Actual Brand Logos) -->
   <section class="tech-stack" aria-labelledby="tech-title">
     <div class="wrap">
       <div class="section-head section-head--split">
         <div>
-          <p class="eyebrow">08 &mdash; Ecosystem &amp; architecture</p>
+          <p class="eyebrow">07 &mdash; Ecosystem &amp; architecture</p>
           <h2 id="tech-title" class="h2">Technology Stack</h2>
         </div>
-        <p class="section-head__aside">A cohesive digital ecosystem linking core operations ERP, real-time field tracking, web presence, and secure enterprise AI.</p>
+        <p class="section-head__aside">A cohesive digital ecosystem linking core operations ERP, real-time field tracking, database infrastructure, and secure enterprise AI.</p>
       </div>
 
-      <!-- Category 1: Website & Digital Experience (Matches Reference Image) -->
-      <div class="tech-group">
-        <h3 class="tech-group__title">Website &amp; Digital Experience</h3>
-        <div class="tech-grid tech-grid--web">
-          <div class="tech-card">
-            <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/wordpress.svg" alt="WordPress" width="38" height="38" loading="lazy"></div>
-            <span class="tech-card__name">WordPress</span>
-          </div>
-          <div class="tech-card">
-            <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/custom-theme.svg" alt="Custom WordPress Theme" width="38" height="38" loading="lazy"></div>
-            <span class="tech-card__name">Custom WordPress Theme</span>
-          </div>
-          <div class="tech-card">
-            <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/svg-icons.svg" alt="SVG Icon System" width="38" height="38" loading="lazy"></div>
-            <span class="tech-card__name">SVG Icon System</span>
-          </div>
-          <div class="tech-card">
-            <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/google-maps.svg" alt="Google Maps" width="38" height="38" loading="lazy"></div>
-            <span class="tech-card__name">Google Maps</span>
-          </div>
-          <div class="tech-card">
-            <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/newsletter.svg" alt="Newsletter Signup" width="38" height="38" loading="lazy"></div>
-            <span class="tech-card__name">Newsletter Signup</span>
-          </div>
-          <div class="tech-card">
-            <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/seo-analytics.svg" alt="SEO &amp; Analytics Setup" width="38" height="38" loading="lazy"></div>
-            <span class="tech-card__name">SEO &amp; Analytics Setup</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Category 2: Platform & Operations Integrations -->
+      <!-- Platform & Operations Integrations -->
       <div class="tech-group">
         <h3 class="tech-group__title">Platform, ERP &amp; AI Integrations</h3>
         <div class="tech-grid">
