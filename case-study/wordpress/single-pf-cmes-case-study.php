@@ -53,7 +53,7 @@ get_header();
       <dl class="facts">
         <div><dt>Founded</dt><dd>1996</dd></div>
         <div><dt>Team</dt><dd>300+ people</dd></div>
-        <div><dt>Based in</dt><dd>Norcross, Georgia</dd></div>
+        <div><dt>Based in</dt><dd>Georgia</dd></div>
         <div><dt>Delivery</dt><dd>9 months, phased</dd></div>
         <div><dt>Scope</dt><dd>Portal &middot; AI &middot; Website</dd></div>
       </dl>
@@ -68,7 +68,7 @@ get_header();
         <h2 id="glance-title" class="h3">CMES Case Study: Quick Facts</h2>
       </div>
       <dl class="glance__list">
-        <div><dt>Client</dt><dd>CMES Inc. &middot; Norcross, GA</dd></div>
+        <div><dt>Client</dt><dd>CMES Inc. &middot; GA</dd></div>
         <div><dt>Industry</dt><dd>Heavy civil &amp; highway construction</dd></div>
         <div><dt>Challenge</dt><dd>Data split across ERP, HeavyJob, telematics, HR &amp; Excel</dd></div>
         <div><dt>Solution</dt><dd>Custom operations portal &amp; AI assistants</dd></div>
@@ -266,7 +266,7 @@ get_header();
               <li>Finance</li><li>Payroll</li><li>Fleet</li><li>Projects</li><li>Bids</li><li>HR</li>
             </ul>
             <ul class="arch__ai">
-              <li>AI &middot; Bid Chat</li><li>AI &middot; HR Chat</li>
+              <li>AI &middot; Document Chat</li><li>AI &middot; Bid Chat</li><li>AI &middot; HR Chat</li>
             </ul>
           </div>
           <p class="arch__guard">Role-based permissions &middot; Read-only AI &middot; Activity logging</p>
@@ -549,6 +549,10 @@ get_header();
           <div class="tech-card">
             <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/bamboohr.svg" alt="BambooHR" width="38" height="38" loading="lazy"></div>
             <span class="tech-card__name">BambooHR</span>
+          </div>
+          <div class="tech-card">
+            <div class="tech-card__icon"><img src="<?php echo esc_url($cmes_uri); ?>/assets/icons/ag-grid.svg" alt="AG Grid" width="38" height="38" loading="lazy"></div>
+            <span class="tech-card__name">AG Grid</span>
           </div>
         </div>
       </div>
