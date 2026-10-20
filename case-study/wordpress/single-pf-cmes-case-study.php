@@ -608,8 +608,9 @@ get_header();
       </div>
       <figure class="cta__photo">
         <div class="photo-frame photo-frame--cta">
-          <img src="<?php echo esc_url($cmes_uri); ?>/assets/img/western-gwinnett.jpg" alt="Western Gwinnett Pathway Infrastructure Aerial View" width="850" height="630" loading="lazy">
+          <img src="<?php echo esc_url($cmes_uri); ?>/assets/img/Dashboard_4.png" alt="CMES Connected Operations Platform Dashboard" width="700" height="330" loading="lazy">
         </div>
+        <figcaption class="note note--light">Connected operations platform &middot; 700 &times; 330</figcaption>
       </figure>
     </div>
   </section>
