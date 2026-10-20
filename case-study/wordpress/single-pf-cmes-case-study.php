@@ -61,7 +61,7 @@ get_header();
         <h2 id="glance-title" class="h3">CMES Case Study: Quick Facts</h2>
       </div>
       <dl class="glance__list">
-        <div><dt>Client</dt><dd>CMES Inc. &middot; GA</dd></div>
+        <div><dt>Client</dt><dd>CMES Inc., GA</dd></div>
         <div><dt>Industry</dt><dd>Heavy civil &amp; highway construction</dd></div>
         <div><dt>Challenge</dt><dd>Data split across ERP, HeavyJob, telematics, HR &amp; Excel</dd></div>
         <div><dt>Solution</dt><dd>Custom operations portal &amp; AI assistants</dd></div>
